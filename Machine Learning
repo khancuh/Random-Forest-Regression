@@ -4,6 +4,9 @@ import numpy as np
 import sklearn
 import matplotlib.pyplot as plt
 
+df = pd.read_csv('C:\\Users\\Imran\\Desktop\\salary.csv')
+df
+
 
 from sklearn.datasets import load_digits
 digits = load_digits()
